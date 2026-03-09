@@ -1,0 +1,34 @@
+{
+  "name": "black-hole-simulator",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Real-time Schwarzschild black hole simulator - Geodesica. Physically accurate gravitational lensing, accretion disk, Doppler shift and photon ring running entirely in the browser via WebGL2.",
+  "author": "sudoaanish",
+  "license": "MIT",
+  "repository": "https://github.com/sudoaanish/black-hole-simulator",
+  "homepage": "https://github.com/sudoaanish/black-hole-simulator",
+  "bugs": "https://github.com/sudoaanish/black-hole-simulator/issues",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "tsc": "tsc",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "webgl2",
+    "glsl",
+    "typescript",
+    "physics",
+    "black-hole",
+    "gravitational-lensing"
+  ],
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-glsl": "^1.5.5"
+  }
+}
