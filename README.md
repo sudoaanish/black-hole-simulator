@@ -20,6 +20,10 @@ Animated GIF preview is also available at [`docs/preview.gif`](./docs/preview.gi
 - A browser with WebGL2 support
 - `EXT_color_buffer_float` support for HDR rendering
 
+## Physics Paper
+
+[Geodesica Physics & Implementation (PDF)](docs/geodesica-physics.pdf)
+
 ## Development
 
 ```bash
@@ -55,6 +59,8 @@ npm run preview
 ```text
 black-hole-simulator/
 |-- docs/
+|   |-- geodesica-physics.tex
+|   |-- geodesica-physics.pdf
 |   |-- preview.gif
 |   `-- preview.jpg
 |-- index.html
