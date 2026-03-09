@@ -2,7 +2,7 @@
 
 Real-time Schwarzschild black hole simulator running entirely in the browser with WebGL2 and GLSL. The project renders gravitational lensing, a relativistic accretion disk, Doppler shift, redshift, and the photon ring without external scene libraries.
 
-<!-- Screenshot: add docs/preview.png after first deploy -->
+![Geodesica preview](./docs/preview.gif)
 
 ## Features
 
@@ -52,6 +52,8 @@ npm run preview
 
 ```text
 black-hole-simulator/
+|-- docs/
+|   `-- preview.gif
 |-- index.html
 |-- package.json
 |-- src/
